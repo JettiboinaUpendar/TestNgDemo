@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="firstpage.loginnpage">
+        <methods>
+          <include name="select_number_of_passengers"/>
+          <include name="browser_is_open"/>
+          <include name="click_on_to_button"/>
+          <include name="click_on_charter_flights"/>
+          <include name="click_on_search"/>
+          <include name="user_enter_location_in_serch_field"/>
+          <include name="select_return_time"/>
+          <include name="select_the_location"/>
+          <include name="click_on_from"/>
+          <include name="select_return_date"/>
+          <include name="select_date"/>
+          <include name="select_time"/>
+          <include name="click_on_chepest_flight"/>
+          <include name="click_on_round_trip"/>
+          <include name="user_enter_location_into_search_field"/>
+          <include name="select_the_to_location"/>
+        </methods>
+      </class> <!-- firstpage.loginnpage -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
